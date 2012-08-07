@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342C65B415D0EA2D00D8AC3B /* Thunder Song.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 342C65B315D0EA2D00D8AC3B /* Thunder Song.m4r */; };
+		34F8F46F15C9313700B06A81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F8F46E15C9313700B06A81 /* UIKit.framework */; };
+		34F8F47115C9313700B06A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F8F47015C9313700B06A81 /* Foundation.framework */; };
+		34F8F47915C9313700B06A81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34F8F47715C9313700B06A81 /* InfoPlist.strings */; };
+		34F8F47B15C9313700B06A81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F8F47A15C9313700B06A81 /* main.m */; };
+		34F8F47F15C9313700B06A81 /* EKAlarmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F8F47E15C9313700B06A81 /* EKAlarmAppDelegate.m */; };
+		34F8F48215C9313700B06A81 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F8F48015C9313700B06A81 /* MainStoryboard_iPhone.storyboard */; };
+		34F8F48515C9313700B06A81 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F8F48315C9313700B06A81 /* MainStoryboard_iPad.storyboard */; };
+		34F8F48815C9313700B06A81 /* EKAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F8F48715C9313700B06A81 /* EKAlarmViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		342C65B315D0EA2D00D8AC3B /* Thunder Song.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Thunder Song.m4r"; path = "../Thunder Song.m4r"; sourceTree = "<group>"; };
+		34F8F46A15C9313700B06A81 /* EKAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F8F46E15C9313700B06A81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34F8F47015C9313700B06A81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34F8F47615C9313700B06A81 /* EKAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EKAlarm-Info.plist"; sourceTree = "<group>"; };
+		34F8F47815C9313700B06A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34F8F47A15C9313700B06A81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34F8F47C15C9313700B06A81 /* EKAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		34F8F47D15C9313700B06A81 /* EKAlarmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKAlarmAppDelegate.h; sourceTree = "<group>"; };
+		34F8F47E15C9313700B06A81 /* EKAlarmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKAlarmAppDelegate.m; sourceTree = "<group>"; };
+		34F8F48115C9313700B06A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		34F8F48415C9313700B06A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		34F8F48615C9313700B06A81 /* EKAlarmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKAlarmViewController.h; sourceTree = "<group>"; };
+		34F8F48715C9313700B06A81 /* EKAlarmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKAlarmViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F8F46715C9313700B06A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F8F46F15C9313700B06A81 /* UIKit.framework in Frameworks */,
+				34F8F47115C9313700B06A81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F8F45F15C9313700B06A81 = {
+			isa = PBXGroup;
+			children = (
+				34F8F47415C9313700B06A81 /* EKAlarm */,
+				34F8F46D15C9313700B06A81 /* Frameworks */,
+				34F8F46B15C9313700B06A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F8F46B15C9313700B06A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F8F46A15C9313700B06A81 /* EKAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F8F46D15C9313700B06A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F8F46E15C9313700B06A81 /* UIKit.framework */,
+				34F8F47015C9313700B06A81 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34F8F47415C9313700B06A81 /* EKAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				34F8F47D15C9313700B06A81 /* EKAlarmAppDelegate.h */,
+				34F8F47E15C9313700B06A81 /* EKAlarmAppDelegate.m */,
+				34F8F48015C9313700B06A81 /* MainStoryboard_iPhone.storyboard */,
+				34F8F48315C9313700B06A81 /* MainStoryboard_iPad.storyboard */,
+				34F8F48615C9313700B06A81 /* EKAlarmViewController.h */,
+				34F8F48715C9313700B06A81 /* EKAlarmViewController.m */,
+				342C65B315D0EA2D00D8AC3B /* Thunder Song.m4r */,
+				34F8F47515C9313700B06A81 /* Supporting Files */,
+			);
+			path = EKAlarm;
+			sourceTree = "<group>";
+		};
+		34F8F47515C9313700B06A81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F8F47615C9313700B06A81 /* EKAlarm-Info.plist */,
+				34F8F47715C9313700B06A81 /* InfoPlist.strings */,
+				34F8F47A15C9313700B06A81 /* main.m */,
+				34F8F47C15C9313700B06A81 /* EKAlarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F8F46915C9313700B06A81 /* EKAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F8F48B15C9313700B06A81 /* Build configuration list for PBXNativeTarget "EKAlarm" */;
+			buildPhases = (
+				34F8F46615C9313700B06A81 /* Sources */,
+				34F8F46715C9313700B06A81 /* Frameworks */,
+				34F8F46815C9313700B06A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKAlarm;
+			productName = EKAlarm;
+			productReference = 34F8F46A15C9313700B06A81 /* EKAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F8F46115C9313700B06A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EKAlarm;
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 34F8F46415C9313700B06A81 /* Build configuration list for PBXProject "EKAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34F8F45F15C9313700B06A81;
+			productRefGroup = 34F8F46B15C9313700B06A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F8F46915C9313700B06A81 /* EKAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F8F46815C9313700B06A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F8F47915C9313700B06A81 /* InfoPlist.strings in Resources */,
+				34F8F48215C9313700B06A81 /* MainStoryboard_iPhone.storyboard in Resources */,
+				34F8F48515C9313700B06A81 /* MainStoryboard_iPad.storyboard in Resources */,
+				342C65B415D0EA2D00D8AC3B /* Thunder Song.m4r in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F8F46615C9313700B06A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F8F47B15C9313700B06A81 /* main.m in Sources */,
+				34F8F47F15C9313700B06A81 /* EKAlarmAppDelegate.m in Sources */,
+				34F8F48815C9313700B06A81 /* EKAlarmViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34F8F47715C9313700B06A81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F8F47815C9313700B06A81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34F8F48015C9313700B06A81 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F8F48115C9313700B06A81 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		34F8F48315C9313700B06A81 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F8F48415C9313700B06A81 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F8F48915C9313700B06A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34F8F48A15C9313700B06A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F8F48C15C9313700B06A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKAlarm/EKAlarm-Prefix.pch";
+				INFOPLIST_FILE = "EKAlarm/EKAlarm-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34F8F48D15C9313700B06A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKAlarm/EKAlarm-Prefix.pch";
+				INFOPLIST_FILE = "EKAlarm/EKAlarm-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F8F46415C9313700B06A81 /* Build configuration list for PBXProject "EKAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F8F48915C9313700B06A81 /* Debug */,
+				34F8F48A15C9313700B06A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F8F48B15C9313700B06A81 /* Build configuration list for PBXNativeTarget "EKAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F8F48C15C9313700B06A81 /* Debug */,
+				34F8F48D15C9313700B06A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F8F46115C9313700B06A81 /* Project object */;
+}
